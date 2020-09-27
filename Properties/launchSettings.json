@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "juggernaut": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\Nasa Images\""
+    }
+  }
+}

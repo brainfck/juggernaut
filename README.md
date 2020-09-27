@@ -12,9 +12,9 @@ I have a shortcut to the program in my startup folder on my Windows 10 PC, so it
 If you want the images stored in a location other than the EXE directory, put the batch files in your startup folder instead, and modify the two paths listed at the top:
 ```batch
 REM The runnable file
-EXE_LOCATION=[EXE location]
+set "exec_location=[EXE location]"
 REM The directory to store the images in. Don't use quotes here.
-IMAGE_LOCATION=[where to save the image]
+set "image_path=[IMAGE_LOCATION]"
 ```
 
 # how it works?
